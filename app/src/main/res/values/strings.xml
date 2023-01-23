@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RoomDataBaseDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="add">Add</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="enter_your_last_name">Enter your Last name</string>
+    <string name="enter_your_first_name">Enter your First name</string>
+    <string name="id">id</string>
+    <string name="textview">TextView</string>
+    <string name="firstname">firstName</string>
+    <string name="lastname">lastname</string>
+    <string name="age">age</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="list">List</string>
+    <string name="adddata">Add Data</string>
+    <string name="updatedat">Update</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.add.AddFragment">
+
+    <EditText
+        android:id="@+id/et_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_your_first_name"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        android:inputType="text"
+        android:autofillHints=""></EditText>
+
+    <EditText
+        android:id="@+id/et_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_your_last_name"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:textColorHint="#757575"
+        android:autofillHints=""></EditText>
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_your_age"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        android:autofillHints=""
+        ></EditText>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_add"
+    android:text="@string/add"
+    android:layout_gravity="center"></Button>
+</androidx.appcompat.widget.LinearLayoutCompat>
